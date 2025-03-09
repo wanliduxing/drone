@@ -13,7 +13,7 @@ steps:
   - name: build
     image: golang:latest
     environment:
-      GOPROXY: https://mirrors.aliyun.com/goproxy/
+      #GOPROXY: https://mirrors.aliyun.com/goproxy/
       GOOS: linux
       GOARCH: amd64
       CGO_ENABLED: 0
